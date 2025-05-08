@@ -27,7 +27,7 @@ body{
 }
 
 #titulo{
-    background-image: linear-gradient(to right, aqua, purple);
+    background-image: linear-gradient(to right, aqua, #6b006b);
     font-size: 4rem;
     text-align: center;
     text-transform: transparent;
@@ -87,15 +87,37 @@ header #logo{
     height: 50px;
     border-radius: 50%;
 }
-.cor{
+#cor1{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-image: linear-gradient(orange,black);
+    background-image: linear-gradient(#858585,rgb(73, 73, 73), black );
+}
+#cor2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(182, 27, 182), #ffc0cb );
+}
+#cor3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: linear-gradient(#b85615, pink );
 }
 
 footer{
     margin-top: 70vh;
     display: flex;
     justify-content: center;
+}
+
+#teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    background-color: #333;
+    height: 300px;
+    width: px;
 }
