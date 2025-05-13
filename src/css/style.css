@@ -164,9 +164,12 @@ footer{
 }
 
 #descricao{
-    width: 400px;
+    width: 370px;
     height: 100px;
     border-radius: 10px;
+}
+#descricao:hover{
+    box-shadow: 10px 10px 10px white;
 }
 .form button{
     width: 80%;
@@ -185,3 +188,17 @@ footer{
 .form input:hover{
     box-shadow: 10px 10px 10px #fff;
 }
+
+.control i{
+    position: absolute;
+    margin-top: 5px;
+    visibility: hidden;
+}
+
+.control small{
+    position: absolute;
+    margin-top: 5px;
+    visibility: hidden;
+}
+
+   
