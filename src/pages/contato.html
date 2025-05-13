@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,55 +7,53 @@
     <title>Contato</title>
 </head>
 <body>
+    <!-- Cabeçalho da página -->
     <header>
-        <img src="Colocar um mimagem" alt="imagem">
+        <img src="" alt="Logo" id="logo">
         <nav>
             <ul>
-                <li><a href="../../index.html">home</a></li>
+                <li><a href="../../index.html">Home</a></li>
                 <li><a href="./sobre.html">Sobre</a></li>
                 <li><a href="./quiz.html">Quiz</a></li>
                 <li><a href="./contato.html">Contato</a></li>
             </ul>
         </nav>
-    <div>
-        <input type="button" class="cor" onclick="trocar('#3ae4b1')">
-        <input type="button" class="cor" onclick="trocar('#E43AB7FF')">
-        <input type="button" class="cor" onclick="trocar('#FFFF1FFF')">
-    </div>
-    </header>
-    <main id="caomtaimer-contato">
-        <div class="Contato">
-        <form class="form" id="form">
-            <div>
-                
-                <article class="control">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="Nome">
-                    <i class="sucesso-img"><img src="" alt="Imagem"></i>
-                    <i class="erro-img"> <img src="src/assets/" alt=""></i>
-                    <small>Erro!!!</small>
-                </article>
-                
-                <article class="control">
-                    <label for="email">Email</label>
-                    <input type="email" id="Email">
-                    <i class="sucesso-img"><img src="" alt="Imagem"></i>
-                    <i class="erro-img"> <img src="src/assets/" alt=""></i>
-                    <small>Erro!!!</small>
-                </article>
+        <div>
+            <input type="button" class="cor" onclick="trocar('#3ae4b1')">
+            <input type="button" class="cor" onclick="trocar('#c13af2')">
+            <input type="button" class="cor" onclick="trocar('#fbff24')">
+        </div>
+     </header>
+
+     <main id="container-contato">
+        <div class="contato">
+            <form class="form" id="form">
 
                 <article class="control">
-                    <label for="Senha">Descrição</label>
-                    <input type="text" id="Descrição">
-                    <i class="sucesso-img"><img src="" alt="Imagem"></i>
-                    <i class="erro-img"> <img src="src/assets/" alt=""></i>
-                    <small>Erro!!!</small>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome">
+                    <i class="erro-img"><img src="./src/assets/error.svg"></i>
+                    <small>Erro !!!</small>
                 </article>
-                
-                <button type="submit" onclick="chamar()">Enviar</button>
-            </div>
-        </form>
+
+                <article class="control">    
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <i class="erro-img"><img src="./src/assets/error.svg"></i>
+                    <small>Erro !!!</small>
+                </article>
+
+                <article class="control">    
+                    <label for="descricao">Descrição</label>
+                    <textarea type="text" name="descricao" id="descricao"></textarea>
+                    <i class="erro-img"><img src="./src/assets/error.svg"></i>
+                    <small>Erro !!!</small>
+                </article>      
+
+                <button type="submit" onclick="chamar()">ENVIAR</button>                
+            </form>
         </div>
-    </main>
+     </main>
 </body>
 </html>
+
